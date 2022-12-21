@@ -1,0 +1,141 @@
+@media only screen and (max-width: 980px){
+.barra-navegacion{
+    margin: auto;
+    }
+    
+main{
+    display: block;
+}
+br{
+    display: none;
+}
+
+
+.preguntainicio{
+    height: 15rem;
+}
+.estoyiniciado{
+    padding-top: 1rem;
+    border: none;
+}
+.iniciarsesion > form{
+    display: grid;
+}
+.noestoyiniciado{
+    display: none;
+}
+.ubicacion{
+    width: 90%;
+}
+.sticky{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.sticky > iframe{
+    width: 95%;
+    height: 85%;
+}
+.ubicacion_y_logos{
+    width: 100%;
+}
+#registrarse{
+    background-image: none;
+}
+#registrarse > form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#registrarse > form > div{
+    margin:0.5rem;
+    margin-right: 5rem;
+}
+
+}
+@media only screen and (max-width:720px){
+    body{
+        width: 40rem;
+    }
+    .sticky{
+        display: block;
+        width: 38rem;
+    }
+}
+
+@media only screen and (max-width:450px){
+    body{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #registrarse{
+        width: 100%;
+        border:none;
+        margin:0;
+        padding: 0;
+
+    }
+    #registrarse > form{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .preguntainicio{
+        width: 90%;
+    }
+    .iniciarsesion > form{
+        padding: 0;
+        width: 100%;
+    }
+    .sticky > iframe{
+        width: 90%;
+    }
+    .logos{
+        display: none;
+    }
+    form{
+        padding: 0;
+        margin: 0;
+    }
+    .ubicacion{
+        width: 100%;
+    }
+    .sticky{
+        width: 90%;
+        margin: 1rem;
+    }
+    .formulario{
+        border: none;
+    }
+    /* ---------------------desplegable--------------------- */
+    #registrarse > h3{
+        display: none;
+    }
+    #hazte_socio{
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        background-color: #a5d69b;
+        text-align: center;
+        width: 100%;
+        border: solid 3px rosybrown;
+    }
+    .oculto{
+        display: none !important;
+    }
+    #visible{
+        display: none;
+    }
+    #visible:checked ~ .oculto{
+        display: block !important;
+    }
+
+}
