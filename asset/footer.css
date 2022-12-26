@@ -68,7 +68,7 @@
 /* --------------------------------footer con copyright y logos -------------------------------*/
 footer{
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color:#121B3E;
     display: flex;

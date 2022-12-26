@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto rugby gernika</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700;800&family=Inter:wght@300&family=Unbounded&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/normalize.css">
     <link rel="stylesheet" href="asset/footer.css">
     <link rel="stylesheet" href="asset/contacto/contacto.css">
@@ -42,13 +40,22 @@
    </div>
   </header>
     <main>
+        <div class="titulo">
+            <h1></h1>
+        </div>
         <div class="formulario">
+            <h1>Formulario de Contacto</h1>
             <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre">
+                <!-- <p><label for="nombre">Nombre:</label></p> -->
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo:">
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <!-- <p><label for="email">Email:</label></p> -->
+                <input type="email" id="email" name="email" placeholder="Email:">
+
+                <!-- <p><label for="texto">Comentario:</label></p>    -->
+                <textarea id="comentario" placeholder="Comentario:"></textarea>
+
+                <input type="submit" value="Enviar">
             </form>
         </div>
     </main>
